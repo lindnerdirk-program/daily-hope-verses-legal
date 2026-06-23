@@ -342,7 +342,7 @@ h3 {
 }
 
 .reflection-image {
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 9 / 15;
   background:
     linear-gradient(135deg, rgba(53, 102, 87, 0.12), rgba(178, 122, 57, 0.14)),
     linear-gradient(145deg, #eef4ef, #f8f1e7);
@@ -356,7 +356,8 @@ h3 {
     linear-gradient(180deg, rgba(32, 38, 33, 0), rgba(32, 38, 33, 0.16)),
     url("assets/images/shorts/bible-reflection.png"),
     linear-gradient(145deg, #eef4ef, #f8f1e7);
-  background-size: cover, contain, cover;
+  background-position: center center;
+  background-size: cover;
 }
 
 .reflection-image.stoic-wisdom {
@@ -364,7 +365,8 @@ h3 {
     linear-gradient(180deg, rgba(32, 38, 33, 0), rgba(32, 38, 33, 0.16)),
     url("assets/images/shorts/stoic-wisdom.png"),
     linear-gradient(145deg, #eef4ef, #f8f1e7);
-  background-size: cover, contain, cover;
+  background-position: center center;
+  background-size: cover;
 }
 
 .reflection-image.buddhist-wisdom {
@@ -372,7 +374,8 @@ h3 {
     linear-gradient(180deg, rgba(32, 38, 33, 0), rgba(32, 38, 33, 0.16)),
     url("assets/images/shorts/buddhist-wisdom.png"),
     linear-gradient(145deg, #eef4ef, #f8f1e7);
-  background-size: cover, contain, cover;
+  background-position: center center;
+  background-size: cover;
 }
 
 .reflection-copy {
