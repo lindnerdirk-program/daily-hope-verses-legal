@@ -263,6 +263,7 @@ h3 {
 .legal-content,
 .link-section,
 .info-band,
+.support-section,
 .reflections-section {
   margin-top: 28px;
 }
@@ -391,7 +392,8 @@ h3 {
 }
 
 .info-band,
-.link-section {
+.link-section,
+.support-section {
   display: grid;
   grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.3fr);
   gap: 24px;
@@ -402,9 +404,36 @@ h3 {
   background: rgba(255, 255, 255, 0.66);
 }
 
+.support-section {
+  align-items: center;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(248, 241, 231, 0.72)),
+    rgba(255, 255, 255, 0.66);
+}
+
 .info-band p {
   margin: 0;
   font-size: 1.04rem;
+}
+
+.support-copy p:last-child {
+  max-width: 680px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+.support-button {
+  justify-self: end;
+  color: #fff;
+  background: var(--green-dark);
+  border-color: var(--green-dark);
+}
+
+.support-button:hover,
+.support-button:focus-visible {
+  color: #fff;
+  background: var(--green);
 }
 
 .link-list {
@@ -480,8 +509,13 @@ h3 {
   }
 
   .info-band,
-  .link-section {
+  .link-section,
+  .support-section {
     grid-template-columns: 1fr;
+  }
+
+  .support-button {
+    justify-self: start;
   }
 }
 
@@ -533,7 +567,12 @@ h3 {
 
   .info-band,
   .link-section,
+  .support-section,
   .legal-card {
     padding: 22px;
+  }
+
+  .support-button {
+    justify-self: stretch;
   }
 }
