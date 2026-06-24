@@ -1,1 +1,1 @@
-# daily-hope-verses-legal
+# daily-hope-verses
